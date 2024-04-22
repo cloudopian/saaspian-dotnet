@@ -1,0 +1,7 @@
+{
+  "LoggerSettings": {
+    "AppName": "Saaspian.Service",
+    "WriteToFile": false,
+    "StructuredConsoleLogging": true
+  }
+}

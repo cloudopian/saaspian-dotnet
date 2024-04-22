@@ -1,0 +1,41 @@
+﻿@using System.Security.Claims
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Microsoft.AspNetCore.Components.WebAssembly.Http
+@using Microsoft.Extensions.Configuration
+@using Microsoft.Extensions.DependencyInjection
+@using Microsoft.Extensions.Localization
+@using Microsoft.JSInterop
+@using Saaspian.Client.Client
+@using Saaspian.Client.Client.Shared
+@using Saaspian.Client.Client.Pages.Authentication
+@using Saaspian.Client.Client.Pages.Multitenancy
+@using Saaspian.Client.Client.Components.Common
+@using Saaspian.Client.Client.Components.EntityTable
+@using Saaspian.Client.Client.Components.Localization
+@using Saaspian.Client.Client.Components.Notifications
+@using Saaspian.Client.Client.Components.ThemeManager
+@using Saaspian.Client.Client.Infrastructure.ApiClient
+@using Saaspian.Client.Client.Infrastructure.Auth
+@using Saaspian.Client.Client.Infrastructure.Common
+@using Saaspian.Client.Client.Infrastructure.Notifications
+@using Saaspian.Client.Client.Infrastructure.Preferences
+@using FSH.WebApi.Shared.Authorization
+@using Blazored.LocalStorage
+@using Mapster
+@using MediatR.Courier
+@using MudBlazor
+
+@attribute [Authorize]
+
+@inject NavigationManager Navigation
+@inject ISnackbar Snackbar
+@inject IDialogService DialogService
+@inject IConfiguration Config
+@inject IClientPreferenceManager ClientPreferences

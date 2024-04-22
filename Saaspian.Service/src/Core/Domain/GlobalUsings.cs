@@ -1,0 +1,1 @@
+﻿global using Saaspian.Service.Domain.Common.Contracts;

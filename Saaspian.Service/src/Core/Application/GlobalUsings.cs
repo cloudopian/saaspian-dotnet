@@ -1,0 +1,17 @@
+global using Ardalis.Specification;
+global using FluentValidation;
+global using Saaspian.Service.Application.Common.Events;
+global using Saaspian.Service.Application.Common.Exceptions;
+global using Saaspian.Service.Application.Common.FileStorage;
+global using Saaspian.Service.Application.Common.Interfaces;
+global using Saaspian.Service.Application.Common.Models;
+global using Saaspian.Service.Application.Common.Persistence;
+global using Saaspian.Service.Application.Common.Specification;
+global using Saaspian.Service.Application.Common.Validation;
+global using Saaspian.Service.Domain.Catalog;
+global using Saaspian.Service.Domain.Common;
+global using Saaspian.Service.Domain.Common.Contracts;
+global using Saaspian.Service.Shared.Notifications;
+global using MediatR;
+global using Microsoft.Extensions.Localization;
+global using Microsoft.Extensions.Logging;
